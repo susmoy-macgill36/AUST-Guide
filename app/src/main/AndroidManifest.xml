@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.austguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".secondpage" />
+        <activity android:name=".allresult" />
+        <activity android:name=".resultsemester" />
+        <activity android:name=".resultmenu" />
+        <activity android:name=".loginpage" />
+        <activity android:name=".signup" />
+        <activity android:name=".cseroutine" />
+        <activity android:name=".Allresultthis" />
+        <activity android:name=".Allresultthissemester" />
+        <activity android:name=".arcsemester" />
+        <activity android:name=".resultmenucse12" />
+        <activity android:name=".resultmenucse21" />
+        <activity android:name=".resultmenucse22" />
+        <activity android:name=".resultmenucse31" />
+        <activity android:name=".resultmenucse32" />
+        <activity android:name=".resultmenucse41" />
+        <activity android:name=".resultmenucse42" />
+        <activity android:name=".arcresultmenu" />
+        <activity android:name=".arcsemestermenu12" />
+        <activity android:name=".arcsemestermenu21" />
+        <activity android:name=".arcsemestermenu22" />
+        <activity android:name=".arcsemestermenu31" />
+        <activity android:name=".arcsemestermenu32" />
+        <activity android:name=".arcresultmenu41" />
+        <activity android:name=".arcresultmenu42" />
+        <activity android:name=".arcresultmenu51" />
+        <activity android:name=".arcresultmenu52" />
+        <activity android:name=".Csertn" />
+        <activity android:name=".arcrtn" />
+        <activity android:name=".mpertn" />
+        <activity android:name=".eeetrn" />
+        <activity android:name=".sobrtn" />
+        <activity android:name=".textilertn" />
+        <activity android:name=".civilrtn" />
+        <activity android:name=".ipertn" />
+        <activity android:name=".allimage" />
+        <activity android:name=".cseroutinesection" />
+        <activity android:name=".cgpacse11" />
+        <activity android:name=".cgpasemester" />
+        <activity android:name=".cgpacse" />
+        <activity android:name=".allcgpaview" />
+        <activity android:name=".findus" />
+        <activity android:name=".cgpacse12" />
+        <activity android:name=".cgpacse21" />
+        <activity android:name=".cgpacse22" />
+        <activity android:name=".cgpacse31" />
+        <activity android:name=".cgpacse32" />
+        <activity android:name=".cgpacse41" />
+        <activity android:name=".cgpacse42" />
+        <activity android:name=".Eeesemester1" />
+        <activity android:name=".Details" />
+        <activity android:name=".Details2" />
+        <activity android:name=".Details3"></activity>
+    </application>
+
+</manifest>

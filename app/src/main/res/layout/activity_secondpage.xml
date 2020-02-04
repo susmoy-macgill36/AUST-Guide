@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/secondpage02"
+    tools:context="com.example.hp.austguide.secondpage">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo"
+        android:layout_marginLeft="97dp"/>
+    <Button
+      android:id="@+id/resultbutton"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:text="Result"
+ android:onClick="onClickzz"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/rtnbutton"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Class routine"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="27dp"
+        android:layout_below="@+id/resultbutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:onClick="oncleek"
+        android:id="@+id/cgpabutton"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:text="Cgpa Calculator"
+        android:textColor="#fffdfd"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_below="@+id/rtnbutton"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginLeft="30dp"
+
+        />
+    <Button
+        android:onClick="quizRtn"
+        android:id="@+id/quiz"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:text="Quiz routine"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@+id/cgpabutton"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginLeft="30dp"
+
+        />
+<Button
+    android:layout_marginLeft="30dp"
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    android:text="about us"
+    android:textSize="25dp"
+    android:layout_below="@+id/quiz"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/border_style"/>
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/secondpage02"
+    tools:context="com.example.hp.austguide.signup">
+
+    <TextView
+        android:id="@+id/i11"
+        android:layout_width="150dp"
+        android:textStyle="bold"
+        android:layout_height="40dp"
+        android:text="Name:"
+        android:textSize="20dp"
+        android:textColor="#e164a2"
+        />
+    <EditText
+        android:id="@+id/i12"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="0dp"
+        android:hint="Enter your name"
+        android:textColorHint="#FFFFFDFD"
+        android:layout_below="@+id/i11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/i11c"
+        android:layout_width="150dp"
+        android:textStyle="bold"
+        android:layout_height="40dp"
+        android:text=" User Name:"
+        android:layout_below="@+id/i12"
+        android:textSize="20dp"
+        android:textColor="#e164a2"
+        />
+    <EditText
+        android:id="@+id/i12c"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="0dp"
+        android:hint="Enter your user  name"
+        android:textColorHint="#FFFFFDFD"
+        android:layout_below="@+id/i11c"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:id="@+id/i13"
+        android:layout_width="150dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/i12c"
+        android:layout_height="40dp"
+        android:text="Password:"
+        android:textSize="23dp"
+        android:textColor="#e164a2"
+        />
+    <EditText
+        android:inputType="textPassword"
+
+        android:id="@+id/i14"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="0dp"
+        android:hint="password should be atleast 6 digit long "
+        android:textColorHint="#FFFFFDFD"
+        android:layout_below="@+id/i13"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        />
+    <TextView
+        android:id="@+id/i15"
+        android:layout_width="150dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/i14"
+        android:layout_height="40dp"
+        android:text="Email:"
+        android:textSize="23dp"
+        android:textColor="#e164a2"
+
+        />
+    <EditText
+        android:inputType="textEmailAddress"
+
+        android:id="@+id/i16"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="0dp"
+        android:hint="gmail.com "
+        android:textColorHint="#FFFFFDFD"
+
+        android:layout_below="@+id/i15"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/i17"
+        android:layout_width="150dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/i16"
+        android:layout_height="40dp"
+        android:text="Department:"
+        android:textSize="23dp"
+        android:textColor="#e164a2"
+
+        />
+    <EditText
+        android:id="@+id/i18"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="0dp"
+        android:hint="choose your department"
+        android:textColorHint="#FFFFFDFD"
+        android:layout_below="@+id/i17"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+<Button
+    android:onClick="signupClick"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="70dp"
+    android:background="@drawable/border_style"
+    android:id="@+id/i19"
+    android:text="SIGN UP"
+    android:textSize="25dp"
+    android:textColor="#FFFFFDFD"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:layout_below="@+id/i18"/>
+</RelativeLayout>

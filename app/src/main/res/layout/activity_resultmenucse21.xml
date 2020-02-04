@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resultmenucse21"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/semesterpage"
+    tools:context="com.example.hp.austguide.resultmenucse21">
+    <Button
+        android:onClick="csethry21"
+
+        android:layout_marginTop="70dp"
+        android:id="@+id/theorycse21"
+        android:background="@drawable/border_style"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:text="theory"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:textColor="#FFFFFF"
+        />
+    <Button
+android:onClick="csessnal21"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/labcse21"
+        android:layout_toRightOf="@id/theorycse21"
+        android:layout_width="170dp"
+        android:text="sessional"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fffcfc"
+
+        android:background="@drawable/border_style"
+        android:layout_height="100dp" />
+    <Button
+      android:onClick="cseclr21"
+        android:layout_marginTop="10dp"
+        android:id="@+id/carrycse21"
+        android:background="@drawable/border_style"
+        android:layout_below="@+id/theorycse21"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="clearence"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:textColor="#d91a7a"
+        android:text="choose your choice"/>
+
+</RelativeLayout>

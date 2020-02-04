@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/seca"
+        android:title="SECTION A"
+
+        ></item>
+    <item
+        android:id="@+id/secb"
+        android:title="SECTION B"
+
+        ></item>
+    <item
+        android:id="@+id/secc"
+        android:title="SECTION C"
+
+        ></item>
+
+
+</menu>

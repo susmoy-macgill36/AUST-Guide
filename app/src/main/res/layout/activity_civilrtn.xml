@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_civilrtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/semesterpagenew"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.austguide.civilrtn">
+    <TextView
+        android:id="@+id/id01p1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="CHOOSE YOUR SEMESTER"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:textColor="#e70e7b"
+
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/id02p1"
+android:onClick="ce11trn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="1st year 1st semester"
+        android:textColor="#FFFFFDFD"
+
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id01p1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        />
+    <Button
+ android:onClick="ce12trn"
+        android:id="@+id/id03p1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="1st year 2nd semester"
+        android:textColor="#fffdfd"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id02p1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="0dp"
+        />
+    <Button
+android:onClick="ce21trn"
+        android:id="@+id/id04p1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="2nd year 1st semester"
+        android:textColor="#fffdfd"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id03p1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="0dp"
+        />
+    <Button
+        android:onClick="ce22trn"
+
+        android:id="@+id/id05p1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="2nd year  2nd  semester"
+        android:textColor="#fffdfd"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id04p1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="0dp"
+        />
+
+    <Button
+        android:onClick="ce31trn"
+
+        android:id="@+id/id06p1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="3rd year 1st semester"
+        android:textColor="#ffffff"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id05p1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="0dp"
+        />
+
+
+
+    <Button
+        android:onClick="ce32trn"
+
+        android:id="@+id/id07p1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="3rd year 2nd semester"
+        android:textColor="#fffdfd"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id06p1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="0dp"
+        />
+    <Button
+        android:onClick="ce41trn"
+
+        android:id="@+id/id08p1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="4th year 1st semester"
+        android:textColor="#fffdfd"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id07p1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="0dp"
+        />
+    <Button
+        android:onClick="ce42trn"
+
+        android:id="@+id/id09p1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="4th year 2nd semester"
+        android:textColor="#fffdfd"
+        android:background="@drawable/border_style"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/id08p1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="0dp"
+        />
+
+
+
+</RelativeLayout>

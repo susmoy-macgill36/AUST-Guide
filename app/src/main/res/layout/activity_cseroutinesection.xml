@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cseroutinesection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/routinesection"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.austguide.cseroutinesection">
+<Button
+    android:onClick="cse11seca"
+    android:layout_marginTop="20dp"
+    android:id="@+id/seca"
+android:background="@drawable/border_style"
+
+android:text="Section A "
+android:textSize="30dp"
+
+    android:textColor="#FFFFFDFD"
+    android:layout_width="match_parent"
+    android:layout_height="100dp" />
+    <Button
+        android:onClick="cse11secb"
+        android:layout_marginTop="20dp"
+        android:id="@+id/secb"
+        android:background="@drawable/border_style"
+android:layout_below="@+id/seca"
+        android:text="Section b"
+        android:textSize="30dp"
+
+        android:textColor="#FFFFFDFD"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/secc"
+        android:background="@drawable/border_style"
+android:layout_below="@+id/secb"
+        android:text="Section c "
+        android:textSize="30dp"
+        android:onClick="cse11secc"
+        android:textColor="#FFFFFDFD"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+</RelativeLayout>

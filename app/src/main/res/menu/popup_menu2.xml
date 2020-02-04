@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/secaa"
+        android:title="THEORY"
+
+        ></item>
+    <item
+        android:id="@+id/secbb"
+        android:title="SESSIONAL"
+
+        ></item>
+    <item
+        android:id="@+id/seccc"
+        android:title="CLEARENCE"
+
+        ></item>
+
+
+</menu>
